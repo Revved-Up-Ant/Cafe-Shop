@@ -1,2 +1,3 @@
 # Cafe-Shop
-This is a UI based cafe shop which has 2 main modes , Customer Mode and Admin Mode , In customer mode the person can view the Cart , Order Food , Calculate total calories , Proceed to payment , And then give cash or use cards for payment and then view the bill after payment and return the money according to cash given and price of the order.
+This is a UI based cafe shop which has 2 main modes , Customer Mode and Admin Mode , In customer mode the person can view the Cart , Order Food , Calculate total calories , Proceed to payment , And then give cash or use cards for payment and then view the bill after payment and return the money according to cash given and price of the order. 
+In the admin mode the employee will enter a secret passcode to access the console and upon gaining access to the admin control , The employee can view menu by specific details ,delete records from menu , add records to menu , update records in menu.
