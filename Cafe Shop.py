@@ -4,8 +4,8 @@ import mysql.connector as m
 d=m.connect(host="localhost",user="root",passwd="1234",database="db1")
 c=d.cursor()
 print('-'*50)
-print('Welcome To Tanwar Cafe!')
-print('-'*50)
+print('Welcome To Atomic Cafe!')
+print('-'*50)Atomic
 e=[]
 def print_table():
     c.execute("select * from rest")
@@ -21,7 +21,7 @@ while True:
     check=input('If you are Customer Press 1 , If you are admin type the password:')
     if check=='1':
         name=input('Enter your Name:')
-        print('Welcome ',name,'to Tanwar Cafe! Please Select an option as shown below')
+        print('Welcome ',name,'to Atomic Cafe! Please Select an option as shown below')
         while True:
             print('\n\n\n')
             print('-'*50)
@@ -186,7 +186,7 @@ while True:
                 continue
 
     elif check=='jaihind':
-        print('Welcome Employee to Tanwar Cafe - Admin Console')
+        print('Welcome Employee to Atomic Cafe - Admin Console')
         while True:
             print('\n\n\n')
             print('-'*50)
