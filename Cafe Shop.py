@@ -5,7 +5,7 @@ d=m.connect(host="localhost",user="root",passwd="1234",database="db1")
 c=d.cursor()
 print('-'*50)
 print('Welcome To Atomic Cafe!')
-print('-'*50)Atomic
+print('-'*50)
 e=[]
 def print_table():
     c.execute("select * from rest")
